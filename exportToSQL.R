@@ -1,4 +1,4 @@
-# DATOS A COMPLETAR: son datos que saco de SQL 
+
 
 user="root"
 host="127.0.0.1"
@@ -25,12 +25,12 @@ library(RMySQL)
 library(stringi)
 library(stringr)
 library(readxl)
-library(mice) #necesaria para Power BI
-library(httr) #peticion (GET) a la API #transformar JSON a dataframe
-library(vctrs) #unir dataframes por filas
-library(lubridate) #transformar columna fecha (caracter) a yyyy-MM-dd (date)
-library(tidyr) #expandir listas de dataframe
-library(anytime) #transformar formato fecha a UNIX
+library(mice) 
+library(httr) 
+library(vctrs) 
+library(lubridate) 
+library(tidyr) 
+library(anytime) 
 
 "%!in%" <- function(x,y)!("%in%"(x,y))
 
